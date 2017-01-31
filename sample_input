@@ -1,0 +1,11 @@
+1
+C(John,Bob,Clark)
+8
+A(x,y) ^ B(x,Bill,z) ^ C(x,Dan,Joey) => C(John,y,z)
+X(x,y) => A(John,Bob)
+X(x,y) => B(John,Bill,Clark)
+X(x,y) => B(John,Dan,Joey)
+X(A,Joey)
+A(John,Dan)
+C(John,Dan,Joey)
+X(x,y) => B(John,Bill,y)
